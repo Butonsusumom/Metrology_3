@@ -1,0 +1,63 @@
+import java.util.Scanner;
+
+
+   public static void main(String[] args) {
+     Scanner in = new Scanner(System.in);
+     int a=0,b,c,d;
+     //a = in.nextInt();
+	 b = in.nextInt();
+	 int c = 4*a;
+	 d=a*3;
+	    if (d>10) {
+		    for (int i=0;i<5;i++){
+			    a+=4;
+		    }
+	     }
+	  int j;
+	  j = in.nextInt();
+	    while (j<10) {
+	        a*=2;
+	    }
+
+		//System.out.println(a);
+        double v= 3;
+		double x= 3;
+        double y = 4;
+        double z;
+        c = Math.sqrt (x* x + y* y);
+        z=Math.sqrt (x* x + y* y)+10;
+        System.out.println ("z = "+ z);
+
+
+         int second= in.nextInt();
+        int first=235;
+        for (int k=0;k<first;k++){
+           ++second;
+        }
+        System.out.println (second);
+
+        String str;
+        boolean switchVar
+        if (z>20)  switchVar=True;
+        else switchVar=false;
+
+        if (switchVar) {
+                    int value = 5;
+                    int one = 1;
+                    int two = 2;
+                    int three = 3;
+
+                    switch (value) {
+                        case 1:
+                            System.out.println(one);
+                            break;
+                        case 2:
+                            System.out.println(two);
+                            break;
+                        case 3:
+                            System.out.println(value);
+                            break;
+                    }
+                }
+
+   }
